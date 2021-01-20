@@ -8,9 +8,20 @@ import perc_finder
 
 
 
+
 def menu():
+
+    print("--------------------------------------------------------")
+
+    print("!!!Welcome to Sparks Multipurpose Calculator!!!")
+
+    print("--------------------------------------------------------")
     
-    print("Please select a option: \n 1) Add\n 2) Subtract\n 3) Multiply\n 4) Divide\n 5) % finder\n 6) Conversion Menu\n 9) Quit")
+    print("Please select a option: \n 1) Add\n 2) Subtract\n 3) Multiply\n 4) Divide\n 5) Page 2\n 0) Quit")
+
+    user_input_A = 100
+
+    #so it won't default to quit if no input is entered
 
     user_input_A = int(input(": "))
     if user_input_A == 1:
@@ -22,10 +33,8 @@ def menu():
     elif user_input_A == 4:
         core.main.divide()
     elif user_input_A == 5:
-        perc_finder.perc_find()
-    elif user_input_A == 6:
-        sub_menu.conv_menu()
-    elif user_input_A == 9:
+        sub_menu.page_2()
+    elif user_input_A == 0:
         sub_menu.sure()
     else:
         print("Invalid option!")
