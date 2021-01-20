@@ -36,6 +36,9 @@ def menu():
         sub_menu.page_2()
     elif user_input_A == 0:
         sub_menu.sure()
+    elif user_input_A == 1114:
+        print("MEOW!")
+        menu()
     else:
         print("Invalid option!")
         menu()
