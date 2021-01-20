@@ -17,7 +17,7 @@ def add():
     if sum_add < 0:
         sum_add = 0
 
-    print("The sum is: ", sum_add)
+    print("The sum is:", sum_add)
     sub_menu.end()
 
 def subtract():
@@ -34,7 +34,7 @@ def subtract():
         sum_sub = 0
     
 
-    print("The sum is: ", sum_sub)
+    print("The sum is:", sum_sub)
     sub_menu.end()
 
 
@@ -51,7 +51,7 @@ def multi():
     if sum_multi < 0:
         sum_multi = 0
     
-    print("The sum is: ", sum_multi)
+    print("The sum is:", sum_multi)
     sub_menu.end()
 
 
@@ -68,7 +68,7 @@ def divide():
     if sum_div < 0:
         sum_div = 0
 
-    print("The sum is: ", sum_div)
+    print("The sum is:", sum_div)
     sub_menu.end()
 
 

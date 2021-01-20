@@ -10,7 +10,7 @@ def c_to_f():
 
     sum_1 = user_input_1 * 1.5 + 32
 
-    print(user_input_1, "C is ", sum_1, "F.")
+    print(user_input_1, "C is", sum_1, "F.")
 
     sub_menu.end()
 
@@ -23,6 +23,6 @@ def f_to_c():
 
     sum_1 = user_input_1 - 32 * 0.5556
 
-    print(user_input_1, "F is ", sum_1, "C.")
+    print(user_input_1, "F is", sum_1, "C.")
 
     sub_menu.end()
